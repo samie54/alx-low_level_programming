@@ -21,9 +21,6 @@ int n;
 struct listint_s *next;
 } listint_t;
 
-int _putchar(char c);
-int _strlen(char *n);
-
 listint_t *add_nodeint(listint_t **head, const int n);
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
