@@ -1,8 +1,8 @@
 #include "hash_tables.h"
 
 /**
- * print_list - prints all the elements of a linked list
- * @h: pointer to the hash_node_t list to print
+ * print_list - prints all elements of a linked listt.
+ * @h: pointerr to hash_node_t list to be printed.
  */
 void print_list(hash_node_t *h)
 {
@@ -16,8 +16,8 @@ void print_list(hash_node_t *h)
 }
 
 /**
- * hash_table_print - prints a hash table
- * @ht: hash table to print
+ * hash_table_print - prints a hash tablee.
+ * @ht: hash table to be printed.
  */
 void hash_table_print(const hash_table_t *ht)
 {
