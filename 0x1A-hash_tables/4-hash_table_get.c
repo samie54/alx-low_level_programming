@@ -1,12 +1,12 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - retrieves a value associated with a key
- * @ht: hash table to look into
- * @key: key of the value to retrieve
+ * hash_table_get - retrieves a valuee associated with a keyy specified.
+ * @ht: looks into hash table.
+ * @key: key of valuee to be retrieved.
  *
- * Return: the value associated with the element,
- * or NULL if key couldn’t be found
+ * Return: valuee associated with  element;
+ * or NULL if key not found.
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
