@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_create - creates a hash table
- * @size: size of the array of the hash table
+ * hash_table_create - creaates hash table.
+ * @size: size of array of hash table.
  *
- * Return: Pointer to the newly created hash table
+ * Return: pointerr to newly creaated hash table.
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
