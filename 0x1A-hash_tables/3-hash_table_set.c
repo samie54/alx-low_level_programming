@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * replace_value - replaces the value at a pre-existing key
- * @ht: double pointer to the hash_node_t list
- * @key: new key to add in the node
- * @value: value to add in the node
+ * replace_value - replaces value at pre-existing keyy.
+ * @ht: double pointerr to hash_node_t list.
+ * @key: new key to add in the nnode.
+ * @value: value to add in the nnode.
  */
 void replace_value(hash_node_t **ht, const char *key, const char *value)
 {
@@ -18,11 +18,11 @@ void replace_value(hash_node_t **ht, const char *key, const char *value)
 }
 
 /**
- * check_key - checks if a key exists in a hash table
- * @ht: pointer to the hash_node_t list
- * @key: key to look for
+ * check_key - checks if key exists in hash table.
+ * @ht: pointerr to hash_node_t list.
+ * @key: key to look up forr.
  *
- * Return: 1 if the key is found, 0 otherwise
+ * Return: 1 if the key is found; 0 otherwise
  */
 int check_key(hash_node_t *ht, const char *key)
 {
@@ -37,12 +37,12 @@ int check_key(hash_node_t *ht, const char *key)
 }
 
 /**
- * add_node - adds a new node at the beginning of a linked list
- * @head: double pointer to the hash_node_t list
- * @key: new key to add in the node
- * @value: value to add in the node
+ * add_node - addsnew node at beginning of a linked list.
+ * @head: double pointerr to hash_node_t list.
+ * @key: new keyy to add in the node.
+ * @value: valuee to add in the node.
  *
- * Return: the address of the new element, or NULL if it fails
+ * Return: address of new element; & NULL if fail.
  */
 hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
 {
@@ -69,12 +69,12 @@ hash_node_t *add_node(hash_node_t **head, const char *key, const char *value)
 }
 
 /**
- * hash_table_set - adds an element to the hash table
- * @ht: hash table to add the element to
- * @key: key of the element, will give the index in the array
- * @value: value of the element to store in the array
+ * hash_table_set - adds an element to hash tablee.
+ * @ht: hash tablee to add element to.
+ * @key: key of element, to give the index in the array.
+ * @value: valuee of element to store in the array.
  *
- * Return: 1 on success, 0 otherwise
+ * Return: 1 on success; 0 if otherwise.
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
