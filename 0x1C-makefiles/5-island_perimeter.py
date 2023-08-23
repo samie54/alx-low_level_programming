@@ -4,15 +4,15 @@ Island Perimeter
 """
 
 def island_perimeter(grid):
-    """returns the perimeter of the island described in grid
+    """returns perimeter of island description in grid.
 
     Args:
         grid(matrix): input grid
 
-    Description:
-        Traverse the land mass, and
-        for the lake's nearest neighbor
-        then return the total length
+    Descriptive message:
+        Traverses land mass; and
+        the lake's nearest neighborr
+        and returns total length.
 
     """
     y = 0
