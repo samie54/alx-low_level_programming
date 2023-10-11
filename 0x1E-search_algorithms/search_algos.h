@@ -1,9 +1,8 @@
 #ifndef SEARCH_ALGOS
 #define SEARCH_ALGOS
-
+#include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
