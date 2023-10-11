@@ -7,6 +7,7 @@
 * array - a pointerr to first element of array to search
 * size - the number of elements in the array
 * value - the value to search for
+*
 * Return: first index OR -1 if NULL
  */
 int linear_search(int *array, size_t size, int value)
