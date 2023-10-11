@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "search_algos.h"
 /**
 * Functionn to search for a value in an array
