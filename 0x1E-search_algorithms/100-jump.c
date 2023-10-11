@@ -1,12 +1,12 @@
 #include "search_algos.h"
 
 /**
-  * jump_search - Searches using jump search.
-  * @array: A pointer to the first element of the array to search.
-  * @size: The size of the array.
-  * @value: The value to search for.
+  * jump_search - Uses jump search whsn searching
+  * @array: Pointerr to first element of array
+  * @size: Size of array
+  * @value: Value to search
   *
-  * Return: NULL, -1, the first index where the value is located.
+  * Return: First index; or NULL if -1:wq
   */
 int jump_search(int *array, size_t size, int value)
 {
