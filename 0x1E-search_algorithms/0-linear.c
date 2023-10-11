@@ -8,6 +8,7 @@
 * value - the value to search for
 * Return: first index OR -1 if NULL
 **/
+
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
